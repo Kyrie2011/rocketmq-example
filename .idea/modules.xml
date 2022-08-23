@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-example-common/rocketmq-example-common.iml" filepath="$PROJECT_DIR$/rocketmq-example-common/rocketmq-example-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-example-integral/rocketmq-example-integral-api/rocketmq-example-integral-api.iml" filepath="$PROJECT_DIR$/rocketmq-example-integral/rocketmq-example-integral-api/rocketmq-example-integral-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-example-integral/rocketmq-example-integral-service/rocketmq-example-integral-service.iml" filepath="$PROJECT_DIR$/rocketmq-example-integral/rocketmq-example-integral-service/rocketmq-example-integral-service.iml" />
+    </modules>
+  </component>
+</project>

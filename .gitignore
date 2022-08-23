@@ -1,0 +1,5 @@
+# Project exclude paths
+/rocketmq-example-gateway/target/
+/rocketmq-example-order/rocketmq-example-order-api/target/
+/rocketmq-example-user/rocketmq-example-user-api/target/
+/rocketmq-example-user/rocketmq-example-user-service/target/

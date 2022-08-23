@@ -1,0 +1,32 @@
+create table t_user
+(
+    id integer not null  primary key,
+    username varchar(50)  not null,
+    password varchar(500) not null,
+    sex  INTEGER(1)   not null,
+    email varchar(50)  not null,
+    remark varchar(500) not null,
+    createTime timestamp   default CURRENT_TIMESTAMP not null comment '创建日期',
+    updateTime timestamp   default CURRENT_TIMESTAMP not null comment '更新日期'
+);
+
+
+create table t_user_login_transaction
+(
+    id integer  primary key,
+    serial_number varchar(50)  not null,
+    create_time timestamp   default CURRENT_TIMESTAMP not null comment '创建日期'
+);
+
+
+
+create table t_user_login_record
+(
+    id integer primary key,
+    user_id integer(50)  not null,
+    login_time timestamp   default CURRENT_TIMESTAMP not null comment '登录日期',
+    remark varchar(500),
+    serial_number varchar(50)  not null,
+    create_time timestamp   default CURRENT_TIMESTAMP not null comment '创建日期',
+    update_time timestamp   default CURRENT_TIMESTAMP  comment '更新日期'
+);
